@@ -49,12 +49,12 @@ var converter = new Converter({});
 converter.on("end_parsed", function (jsonArray) {
 
   var options = {
-    host: 'zzz-madelinebagby.desk.com',
+    host: 'website.com',
     //Just a heads up...Its a sample customers csv file...not cases
     json: true,
     path: '/api/v2/customers',
     method: 'POST',
-    auth: 'MadelineBagbyDev@gmail.com:Madeline15',
+    auth: 'email:password',
     headers: {"content-type": "application/json"}
  };
 
