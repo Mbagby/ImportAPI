@@ -34,7 +34,7 @@
 
 
 ////expect a csv file to be turned into arrays
-// //Yay it works how I expected it to work!
+// //Works how I expected it to work!
 
  // //cat sample_customers.csv | node parser
 
